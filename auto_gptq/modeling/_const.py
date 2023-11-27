@@ -22,6 +22,7 @@ SUPPORTED_MODELS = [
     "internlm",
     "qwen",
     "xverse",
+    "cogvlm",
 ]
 if compare_transformers_version("v4.28.0", op="ge"):
     SUPPORTED_MODELS.append("llama")
